@@ -1,6 +1,7 @@
 package ru.vsu.math;
 
 import java.util.Objects;
+import java.util.Vector;
 
 
 /**
@@ -12,6 +13,10 @@ public class Vector2f extends AbstractVector {
 
     public Vector2f(float... components) {
         super(components);
+    }
+
+    public Vector2f(){
+        super();
     }
 
     // Геттеры и сеттеры для компонентов X и Y

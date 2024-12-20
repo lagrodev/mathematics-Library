@@ -183,6 +183,8 @@ public class Matrix3fTest {
     @Test
     public void testMultiplyWithInvalidVector() {
         Vector2f invalidVector = new Vector2f(1, 2);
+        Vector2f q = new Vector2f();
+
         Matrix3f matrix = new Matrix3f(new float[]{
                 1, 0, 0,
                 0, 1, 0,
